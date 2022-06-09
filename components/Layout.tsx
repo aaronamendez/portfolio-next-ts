@@ -1,5 +1,4 @@
 import React, { ReactNode } from 'react';
-import { Box } from '@chakra-ui/layout';
 import type { AppProps } from 'next/app';
 import Navbar from './Navbar';
 
@@ -9,12 +8,12 @@ interface Props {
 
 const Layout = ({ children }: Props) => {
 	return (
-		<Box width="100vw" height="100vh">
-			<Box>
+		<div>
+			<div>
 				<Navbar />
-			</Box>
-			<Box>{children}</Box>
-		</Box>
+			</div>
+			<div>{children}</div>
+		</div>
 	);
 };
 
