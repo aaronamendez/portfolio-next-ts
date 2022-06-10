@@ -15,7 +15,7 @@ const Navbar = () => {
 			</div>
 			<div className="flex items-center text-xs smallScreen:text-2xl">
 				<Link href="/">Home</Link>
-				<Link href="/projects">Projects</Link>
+				<Link href="/work">Work</Link>
 				<Link href="/socials">Socials</Link>
 				<Link href="mailto:aaronamendez1@gmail.com">
 					<a target="_blank">Contact</a>

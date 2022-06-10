@@ -5,13 +5,13 @@ import underdogdev from '../public/underdogdev.png';
 import Link from 'next/link';
 import Head from 'next/head';
 
-const projects = () => {
+const work = () => {
 	return (
 		<div className="">
 			<Head>
-				<title>Aaron Mendez: Projects</title>
+				<title>Aaron Mendez: Work</title>
 			</Head>
-			<h1 className="mt-20 text-3xl text-center">Projects</h1>
+			<h1 className="mt-20 text-3xl text-center">My Work</h1>
 			<div className="flex flex-wrap justify-around mt-20 mb-40">
 				<div className="">
 					<h3 className="mt-10 text-2xl text-center smallScreen:mt-0">
@@ -45,4 +45,4 @@ const projects = () => {
 	);
 };
 
-export default projects;
+export default work;
