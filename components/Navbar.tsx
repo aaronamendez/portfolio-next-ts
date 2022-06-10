@@ -4,7 +4,7 @@ import bitcoin from '../public/bitcoin.gif';
 
 const Navbar = () => {
 	return (
-		<div className="flex justify-between m-4 text-white">
+		<div className="flex justify-between m-4">
 			<div className="flex items-center">
 				<Image
 					src={bitcoin}
@@ -17,7 +17,9 @@ const Navbar = () => {
 				<Link href="/">Home</Link>
 				<Link href="/projects">Projects</Link>
 				<Link href="/socials">Socials</Link>
-				<Link href="/contact">Contact</Link>
+				<Link href="mailto:aaronamendez1@gmail.com">
+					<a target="_blank">Contact</a>
+				</Link>
 			</div>
 		</div>
 	);
