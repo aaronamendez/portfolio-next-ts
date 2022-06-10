@@ -32,6 +32,7 @@ const Home: NextPage = () => {
 				<div>
 					<Image
 						className="rounded-full"
+						alt="Aaron Mendez"
 						src={aaron}
 						width="350px"
 						height="350px"
